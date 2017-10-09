@@ -1,0 +1,25 @@
+{
+  "name": "testjs2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "mocha --compilers ts:ts-node/register,js:babel-register --recursive test/*.spec.ts test/*.spec.js" 
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^2.2.43",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
+    "mocha": "^4.0.1",
+    "ts-loader": "^2.3.7",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3",
+    "webpack": "^3.6.0"
+  }
+}
